@@ -1,0 +1,240 @@
+.navbar-collapse {
+    position: fixed;
+    top: 0px;
+    padding-bottom: 15px;
+    width: 15%;
+    height: 100%;
+}
+
+.navbar-collapse.collapsing {
+    right: -75%;
+    transition: height 0s ease;
+}
+
+.navbar-collapse.show {
+    right: 0;
+    transition: right 300ms ease-in-out;
+}
+
+.navbar-toggler.collapsed~.navbar-collapse {
+    transition: right 500ms ease-in-out;
+}
+
+/* @media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0px;
+        padding-bottom: 15px;
+        width: 30%;
+        height: 100%;
+    }
+
+    .navbar-collapse.collapsing {
+        right: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        right: 0;
+        transition: right 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed~.navbar-collapse {
+        transition: right 500ms ease-in-out;
+    }
+} */
+
+ul li:first-child {
+    background-color: #1D809F;
+    font-size: 1.5rem;
+}
+
+
+
+.nav-link {
+    padding-left: 30px !important;
+    color: white !important;
+}
+
+
+.bg-custom,
+.bg-custom:active,
+.bg-custom::after,
+.bg-custom::before {
+    background-color: rgba(52, 58, 64, 0.5) !important;
+
+}
+
+.navbar-collapse {
+    background-color: rgba(29, 128, 159, 0.9) !important;
+}
+
+button.bg-custom:hover {
+    background-color: #343a40 !important;
+}
+
+.Headers {
+    height: 100vh;
+    width: 100%;
+    background: url(./resources/images/bg-masthead.jpg) center center no-repeat;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 6rem;
+}
+
+.btn-custpm {
+    background-color: #1D809F;
+    font-weight: 700;
+    color: #fff;
+}
+
+.cus {
+    padding: 140px 0px;
+}
+
+.cus-2 {
+    background-color: #1D809F;
+}
+
+.icons-radius {
+    background-color: #fff;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #1D809F;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+    /* display: inherit; */
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.img-thumbnail {
+    width: 80px;
+    height: 92px;
+    background-color: #fff;
+    font-size: 1rem;
+    color: #1D809F;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0px auto;
+
+}
+
+.img-background {
+    background: url(./resources/images/portfolio-4.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.h2 {
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+/* i[class*="fa"]{
+display: block;
+margin:0px auto;
+} */
+
+h5 {
+    font-weight: bold;
+    margin-top: 4rem;
+}
+
+section {
+    min-height: 480px;
+}
+
+.img-c {
+    padding-right: 340px;
+    padding-left: 340px;
+}
+
+.btn-download {
+    border: 2px solid #1D809F !important;
+}
+
+.btn-download:hover {
+    background-color: #1D809F !important;
+}
+
+
+.h-poft {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.caption {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 37, 41, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.caption-content {
+    color: #fff;
+    margin: auto 2rem 2rem;
+}
+
+.btn-click {
+    padding: 20px 30px;
+    background-color: rgb(236, 231, 231);
+    line-height: 1.5em;
+}
+
+.btn-look {
+    line-height: 1.5em;
+    padding: 20px 30px;
+    color: #fff;
+    background-color: #212529
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+}
+
+
+.list-inline-item {
+    display: inline-block;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+ol,
+ul,
+dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+footer.footer {
+padding-top: 5rem;
+padding-bottom: 5rem;
+}
+.social-link {
+display: block;
+text-decoration: none;
+height: 4rem;
+width: 4rem;
+line-height: 4.3rem;
+font-size: 1.5rem;
+background-color: #1D809F;
+}
